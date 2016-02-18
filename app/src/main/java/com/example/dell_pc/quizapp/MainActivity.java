@@ -35,11 +35,11 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-   /* public void playPressed(View view) {
+    public void playPressed(View view) {
         //TODO: Put to start game play activity
         Intent playActivity = new Intent(this, PlayActivity.class);
         startActivity(playActivity);
-    }*/
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
