@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the most Common Gas in Earth&apos;s Atmosphere?"
+        android:id="@+id/question1"
+        android:layout_marginTop="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer1"
+        android:text="                              "
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="45dp"
+        android:layout_above="@+id/submitButton1"
+        android:layout_alignEnd="@+id/question1"
+        android:layout_marginEnd="34dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Answer"
+        android:id="@+id/submitButton1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        android:onClick="submitPressed1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="(Spell it out completely)"
+        android:id="@+id/textView2"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/question1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Question 1!"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/submitButton1"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Answer:"
+        android:id="@+id/textView6"
+        android:layout_alignBottom="@+id/answer1"
+        android:layout_toStartOf="@+id/textView3" />
+
+</RelativeLayout>
