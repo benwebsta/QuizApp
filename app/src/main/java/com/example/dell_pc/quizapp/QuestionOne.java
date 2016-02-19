@@ -1,7 +1,5 @@
 package com.example.dell_pc.quizapp;
 
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
@@ -10,8 +8,6 @@ import android.view.ViewGroup;
 import android.content.Context;
 import android.widget.EditText;
 import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -81,9 +77,6 @@ public class QuestionOne extends Fragment {
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        //TA Implementation
-
-        //different way of implementing click interaction.
         submit1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -1,21 +1,13 @@
 package com.example.dell_pc.quizapp;
 
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link ResultsFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class ResultsFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -75,9 +67,6 @@ public class ResultsFragment extends Fragment {
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        //TA Implementation
-
-        //different way of implementing click interaction.
         results.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
